@@ -1,0 +1,38 @@
+name: IronSpleef
+version: 1.0.0
+description: Automated Spleef arenas plugin for ShadowRaze
+author: Na7coldwater
+
+main: net.shadowraze.IronSpleef.IronSpleef
+
+commands:
+  ironspleef:
+    description: Access to the main IronSpleef command
+    aliases: spleef
+    permission: ironspleef.command
+    
+permissions:
+    ironspleef.command:
+        description: The ability to use the /ironspleef command 
+        default: true
+    ironspleef.ownall:
+        description: The ability to manage all IronSpleef arenas
+        default: op
+    ironspleef.wand:
+        description: The ability to check applicable regions
+        default: op
+    ironspleef.create:
+        description: The ability to create IronSpleef arenas
+        default: op
+    ironspleef.listall:
+        description: Allows players to view a list of all arenas
+        default: op
+    ironspleef.play:
+        description: Allows players to play games of IronSpleef
+        default: true
+    ironspleef.startgame:
+        description: The ability to start a game of IronSpleef
+        default: true
+    ironspleef.teleport:
+        description: The ability to teleport to an arena by entering it''s name
+        default: true
