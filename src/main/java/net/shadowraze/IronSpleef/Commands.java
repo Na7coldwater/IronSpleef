@@ -11,7 +11,7 @@ import org.bukkit.event.player.PlayerTeleportEvent.TeleportCause;
 
 public class Commands {
 	
-	public static final Pattern ASSIGNMENT_REGEX = Pattern.compile("(\\w+)\\s*=\\s*(\"[\\w\\s]*\"|\\w+)");
+    public static final Pattern ASSIGNMENT_REGEX = Pattern.compile("(\\w+)\\s*=\\s*(\"[\\w\\s]*\"|\\w+)");
 	
     public static void create(Player player, String[] args, final IronSpleef plugin) {
         if (args.length != 4) {
